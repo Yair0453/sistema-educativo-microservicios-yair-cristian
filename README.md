@@ -30,28 +30,43 @@ Este sistema educativo ha sido desarrollado utilizando la arquitectura de micros
 Transformar el sistema monolítico en una arquitectura distribuida basada en microservicios, con comunicación entre ellos, seguridad y despliegue automatizado.
 
 Documentación del Proyecto Sistema Educativo Microservicios
+
 Información General
+
 Nombre del Proyecto: Sistema Educativo Microservicios
+
 Versión: 1.0
+
 Arquitectura: Microservicios
+
 Descripción del Proyecto
+
 Sistema educativo implementado con arquitectura de microservicios que gestiona usuarios, asignaturas y matrículas. Utiliza Spring Boot y proporciona una API REST segura con autenticación JWT.
 
 Estructura del Proyecto
+
 Microservicios Principales
+
 Servicio de Usuarios (Puerto 9083)
 
 Gestión de autenticación y usuarios
+
 Base de datos propia (MySQL)
+
 Implementa JWT para seguridad
+
 Servicio de Asignaturas (Puerto 9081)
 
 Gestión de asignaturas y profesores
+
 Base de datos propia (MySQL)
+
 Seguridad basada en tokens
+
 Servicio de Matrículas (Puerto 9082)
 
 Gestión de matrículas
+
 Comunicación con otros servicios vía Feign Client
 Base de datos propia (MySQL)
 Servicios de Infraestructura
